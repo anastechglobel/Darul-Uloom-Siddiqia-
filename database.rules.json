@@ -1,0 +1,80 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+    "pages": {
+      ".read": true,
+      "$pageId": {
+        ".write": "auth != null"
+      }
+    },
+    "madrasa": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "leadership": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "students": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "programs": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "staff": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "facilities": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "gallery": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "videos": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "notices": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "events": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "admission": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "donation": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "contact": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "social": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "seo": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "settings": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "images": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    }
+  }
+}

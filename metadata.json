@@ -1,0 +1,6 @@
+{
+  "name": "Darul Uloom Siddiqia",
+  "description": "Official portal and administration of Darul Uloom Siddiqia, Aurahi East, Simraha, Araria, Bihar, India. Rooted in Deen, Rising with Knowledge.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

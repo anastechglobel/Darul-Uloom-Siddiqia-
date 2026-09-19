@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* Islamic institutional aesthetic styling & fonts */
+@layer base {
+  :root {
+    --color-emerald-primary: #064e3b;
+    --color-emerald-deep: #022c22;
+    --color-emerald-light: #047857;
+    --color-gold-antique: #c59b27;
+    --color-gold-muted: #d4af37;
+    --color-ivory: #faf8f5;
+    --color-ivory-dark: #f3eee3;
+    --color-charcoal: #1c1f24;
+  }
+}
+
+/* RTL layout helpers for Urdu & Arabic */
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="ltr"] {
+  text-align: left;
+}
+
